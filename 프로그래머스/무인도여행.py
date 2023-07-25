@@ -1,6 +1,7 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/154540
 # 무인도 여행
 # 테스트 케이스만 생각하다가, maps[0][0]이 무조건 X일 것이라고 가정해 days 초기화를 잘못 해줘서 오류 발생했음
+# maps가 필요없음 -> 이미 필터링 함
 
 from collections import deque
 
