@@ -1,0 +1,9 @@
+# https://www.acmicpc.net/problem/1834
+# 엘전 코테 준비
+
+num = int(input())
+answer = []
+for x in range(1, num):
+  answer.append(x*num + x)
+
+print(sum(answer))
